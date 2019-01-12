@@ -116,7 +116,7 @@ int main(int argc, char **argv)
 
     if (access(buff, F_OK ) != -1){
     	printf("\x1b[32mResidentmenu found! Copying...\n");
-    	copy(buff, "/atmosphere/titles/0100000000001000/romfs/lyt/ResidentMenu.szs");
+    	copy(buff, "/reinx/titles/0100000000001000/romfs/lyt/ResidentMenu.szs");
     }
     else printf("\x1b[31mResidentmenu Missing!\n");
 
@@ -127,7 +127,7 @@ int main(int argc, char **argv)
 
     if (access(buff, F_OK ) != -1){
     	printf("\x1b[32mEntrance found! Copying...\n");
-    	copy(buff, "/atmosphere/titles/0100000000001000/romfs/lyt/Entrance.szs");
+    	copy(buff, "/reinx/titles/0100000000001000/romfs/lyt/Entrance.szs");
     }
     else printf("\x1b[31mEntrance Missing!\n");
 
@@ -138,7 +138,7 @@ int main(int argc, char **argv)
 
     if (access(buff, F_OK ) != -1){
     	printf("\x1b[32mCommon found! Copying...\n");
-    	copy(buff, "/atmosphere/titles/0100000000001000/romfs/lyt/common.szs");
+    	copy(buff, "/reinx/titles/0100000000001000/romfs/lyt/common.szs");
     }
     else printf("\x1b[31mCommon Missing!\n");
 
@@ -149,7 +149,7 @@ int main(int argc, char **argv)
 
     if (access(buff, F_OK ) != -1){
     	printf("\x1b[32mSet found! Copying...\n");
-    	copy(buff, "/atmosphere/titles/0100000000001000/romfs/lyt/Set.szs");
+    	copy(buff, "/reinx/titles/0100000000001000/romfs/lyt/Set.szs");
     }
     else printf("\x1b[31mSet Missing!\n");
 
@@ -160,7 +160,7 @@ int main(int argc, char **argv)
 
     if (access(buff, F_OK ) != -1){
     	printf("\x1b[32mFlaunch found! Copying...\n");
-    	copy(buff, "/atmosphere/titles/0100000000001000/romfs/lyt/FLaunch.szs");
+    	copy(buff, "/reinx/titles/0100000000001000/romfs/lyt/FLaunch.szs");
     }
     else printf("\x1b[31mFlaunch Missing!\n");
 
